@@ -1,0 +1,25 @@
+---
+
+copyright:
+  years: 2017
+  last-updated: "2017-01-20"
+
+---
+
+
+<!-- Common attributes used in the template are defined as follows: -->
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+
+# Managing deployment plans
+{: #plan_create}
+
+A deployment plan is container for tasks. The tasks define the activities that you complete to run a software deployment.
+
+{:shortdesc}
+
+You define a deployment plan by adding tasks to it. You can create new tasks or copy tasks from other deployment plans. When you are satisfied with the plan, you can schedule a deployment, or you can run a deployment by starting one of the plan's tasks.
+
+The tasks in a deployment plan are displayed on individual rows. Each row contains information that identifies the task and provides its status. Each row also contains action icons that are used during deployments, such as `Start` task or `Skip` task

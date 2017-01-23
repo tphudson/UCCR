@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/local1
 ---
 
 copyright:
@@ -142,4 +146,8 @@ When using the forums to ask a question, tag your question so that it is seen by
 
 See [Getting help](https://www.{DomainName}/docs/support/index.html#getting-help) for more details about using the forums.
 
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+=======
 
+>>>>>>> origin/local1
