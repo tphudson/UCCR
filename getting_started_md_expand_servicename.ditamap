@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<map xml:lang="en-us">
+<title>Getting started with service_short_name</title>
+<!--This is the template ditamap for Markdown source topics for complex getting started outlines that contain additional topics with children. Rename this file to servicepluginname.ditamap and place it in your Services/servicepluginname folder. Your content files go in git hub services/serviceplugin_name-->
+<!--Collection (REQUIRED): The  collection title is set on the parent topicref, which points to the  getting started topic. You must set the navtitle on the parent topicref  as "service_short_name" (where service_short_name is the approved short name of the service, and does not include the word "service"). Also, you must set locktitle=yes.    
+  -->
+<topicref format="html" href="../folder/index.html" navtitle="service_short_name" scope="peer"
+locktitle="yes">
+<!--
+Getting started (REQUIRED): A new duplicate topicref is to be added as the first child of the parent (collection) topicref to point to  the same getting     started topic as the parent topicref. You must set the  navtitle on this topicref as "Getting started" and set locktitle=yes.   
+  -->
+<topicref format="html" href="index.html" navtitle="Getting started" scope="peer" locktitle="yes"/>
+<!--
+About (Optional): The second child, if needed, is the service concepts information, titled "About". This is a short-term solution for  high level concepts about the service.  Long term, concept information will be moved to the product pages and linked from the related links. Because  this topic contains  subtopics, it should be coded in the ditamap as a  subsection. It can contain only one level of children below the  subsection. The About topic subsection must be a separate page in output that includes the child topics, so must use 'chunk="to-content"'.
+  -->
+<topicref format="html" href="../folder/servicename_overview.html" navtitle="About" scope="peer"
+chunk="to-content">
+<topicref format="html" href="../folder/servicename_overview.html#subconceptanchor1"
+navtitle="short concept title" scope="peer"/>
+<topicref format="html" href="../folder/servicename_overview.html#subconceptanchor1"
+navtitle="short concept title" scope="peer"/>
+<!--
+ Include the following topic ref if you don't have a troubleshooting topic.
+  -->
+<topicref format="html" href="../folder/servicename_overview.html#gettinghelp"
+navtitle="Getting help" scope="peer"/>
+</topicref>
+<!--
+Additional tasks (Optional):  The next child or children are subsections for additional tasks to use the service (after the getting started). The task titles  should use the gerund verb form. Example container titles include  "Configuring x", "Administering y", "Creating z".  Each  additional task topic contains subtopics and must be coded in the  ditamap as a subsection. It can contain only one level of children  below the subsection. Each
+additional subsection must be a separate page in output that includes the child topics, so must use 'chunk="to-content"'.
+  -->
+<topicref format="html" href="../folder/servicename_taskA.html" navtitle="short gerund task title"
+scope="peer" chunk="to-content">
+<topicref format="html" href="../folder/servicename_taskA.html#subtaskanchor1"
+navtitle="short gerund subtask title" scope="peer"/>
+<topicref format="html" href="../folder/servicename_taskA.html#subtaskanchor2"
+navtitle="short gerund subtask title" scope="peer"/>
+</topicref>
+<topicref format="html" href="../folder/servicename_taskB.html" navtitle="short gerund task title"
+scope="peer" chunk="to-content">
+<topicref format="html" href="../folder/servicename_taskB.html#subtaskanchor1"
+navtitle="short gerund subtask title" scope="peer"/>
+<topicref format="html" href="../folder/servicename_taskB.html#subtaskanchor2"
+navtitle="short gerund subtask title" scope="peer"/>
+</topicref>
+<!--
+ Troubleshooting (Recommended): Troubleshooting information is the last topic or subsection, and is  titled "Troubleshooting". It includes specific troubleshooting topics and  error messages. (Previously this information was included in the Troubleshooting section of docs.) The Troubleshooting topic contains subtopics and should be coded in the ditamap as a  subsection. It can contain only one level of children below the subsection. The troubleshooting subsection must be a separate page in output that includes the child topics, so must use 'chunk="to-content"'.
+  -->
+<!--
+ Include the following topicrefs as appropriate.
+  -->
+<topicref format="html" href="../folder/ts_index.html" navtitle="service_short_name troubleshooting"
+scope="peer" chunk="to-content">
+<topicref format="html" href="../folder/ts_index.html#ts_prob1" navtitle="problem_statement"
+scope="peer"/>
+<topicref format="html" href="../folder/ts_index.html#ts_prob2" navtitle="problem_statement"
+scope="peer"/>
+<topicref format="html" href="../folder/ts_index.html#knownissues" navtitle="Known issues"
+scope="peer"/>
+<topicref format="html" href="../folder/ts_index.html#tstechniques"
+navtitle="Troubleshooting techniques" scope="peer"/>
+<topicref format="html" href="../folder/ts_index.html#errormessages" navtitle="Error messages"
+scope="peer"/>
+<topicref format="html" href="../folder/ts_index.html#gettinghelp" navtitle="Getting help"
+scope="peer"/>
+</topicref>
+</topicref><?Pub Caret -2?>
+</map>
+<?Pub *0000002829?>
