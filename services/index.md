@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/local1
 ---
 
 copyright:
@@ -286,4 +290,8 @@ Use {:new_window} for external links to open a new window.-->
 * [link text](URL){:new_window}
 * [link text](URL)
 * [link text](URL)
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
+=======
+
+>>>>>>> origin/local1
