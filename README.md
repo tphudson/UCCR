@@ -1,2 +1,2 @@
 # UCCR
-Slipstream Continuous Release
+IBM Cloud Continuous Release
